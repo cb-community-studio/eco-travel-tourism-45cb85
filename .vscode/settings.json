@@ -1,0 +1,24 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".dockerignore": true,
+    "nodejs-backend/.dockerignore": true,
+    "**/.dockerignore": true,
+    "nodejs-backend/*.*": true,
+    "react-frontend/.editorconfig": true,
+    "**/.editorconfig": true,
+    "react-frontend/*.*": true,
+    ".editorconfig": true,
+    "Dockerfile": true,
+    "docker-compose.yaml": true,
+    "eco-travel-tourism-postman.json": true,
+    "node_modules": true,
+    "nodejs-backend/node_modules": true
+  },
+  "explorerExclude.backup": {}
+}
