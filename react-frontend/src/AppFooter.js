@@ -6,7 +6,7 @@ export const AppFooter = (props) => {
             <img src={"assets/logo/cb-logo.svg"} alt="Logo" height="20" className="mr-2" />
             <small>
                 by
-                <span className="font-bold ml-1">CodeBridge</span>
+                <span className="font-bold ml-1">EcoWanderlust</span>
             </small>
         </div>
     );

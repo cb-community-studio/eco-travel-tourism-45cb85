@@ -47,9 +47,9 @@ const AppTopbar = (props) => {
         <div className="layout-topbar">
             <Link to="/">
                 <div className="cursor-pointer min-w-max flex align-items-end">
-                    {/* <img src={"assets/logo/cb-logo.svg"} height={30} className="mb-1" /> */}
-                    <h3 className="text-red-500" style={{ fontFamily: "MarlinGeo", fontWeight: "bolder", margin: 0 }}>
-                        react-frontend
+                    {<img src={"assets/logo/cb-logo.svg"} height={30} className="layout-topbar-logo" />}
+                    <h3 className="text-red-500" style={{ fontFamily: "MarlinGeo", fontWeight: "bolder", margin: 10 }}>
+                        EcoWanderlust
                     </h3>
                 </div>
             </Link>
