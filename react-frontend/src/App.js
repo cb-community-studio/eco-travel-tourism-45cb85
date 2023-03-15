@@ -14,15 +14,11 @@ class App extends Component {
         const store = init({ models });
 
         return (
-            // <Provider store={store}>
-            //     {/* <PersistGate persistor={getPersistor()}> */}
-            //     <MyRouter />
-            //     {/* </PersistGate> */}
-            // </Provider>
-
-            <div>
-                <TestDummy></TestDummy>
-            </div>
+            <Provider store={store}>
+                {/* <PersistGate persistor={getPersistor()}> */}
+                <MyRouter />
+                {/* </PersistGate> */}
+            </Provider>
         );
     }
 }

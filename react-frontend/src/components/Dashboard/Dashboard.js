@@ -14,11 +14,41 @@ const Dashboard = (props) => {
                     <h4 className="ml-4">Microservices Ready</h4>
                     <div className="w-full flex justify-content-center flex-wrap ">
                         <></>
-                <div className='col-12 lg:col-6 xl:col-4'><Link to='/users'><div className='card mb-0 flex flex-column align-items-center justify-content-center hover zoom' style={{ height: '10rem' }}><div className='text-900 font-medium text-lg'>Users</div></div></Link></div>
-                <div className='col-12 lg:col-6 xl:col-4'><Link to='/personaldetails'><div className='card mb-0 flex flex-column align-items-center justify-content-center hover zoom' style={{ height: '10rem' }}><div className='text-900 font-medium text-lg'>Personaldetails</div></div></Link></div>
-                <div className='col-12 lg:col-6 xl:col-4'><Link to='/contactdetails'><div className='card mb-0 flex flex-column align-items-center justify-content-center hover zoom' style={{ height: '10rem' }}><div className='text-900 font-medium text-lg'>Contactdetails</div></div></Link></div>
-                <div className='col-12 lg:col-6 xl:col-4'><Link to='/tourpackages'><div className='card mb-0 flex flex-column align-items-center justify-content-center hover zoom' style={{ height: '10rem' }}><div className='text-900 font-medium text-lg'>Tourpackages</div></div></Link></div>
-                <div className='col-12 lg:col-6 xl:col-4'><Link to='/activityinfo'><div className='card mb-0 flex flex-column align-items-center justify-content-center hover zoom' style={{ height: '10rem' }}><div className='text-900 font-medium text-lg'>Activityinfo</div></div></Link></div>
+                        <div className="col-12 lg:col-6 xl:col-4">
+                            <Link to="/users">
+                                <div className="card mb-0 flex flex-column align-items-center justify-content-center hover zoom" style={{ height: "10rem" }}>
+                                    <div className="text-900 font-medium text-lg">Users</div>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="col-12 lg:col-6 xl:col-4">
+                            <Link to="/personaldetails">
+                                <div className="card mb-0 flex flex-column align-items-center justify-content-center hover zoom" style={{ height: "10rem" }}>
+                                    <div className="text-900 font-medium text-lg">Personaldetails</div>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="col-12 lg:col-6 xl:col-4">
+                            <Link to="/contactdetails">
+                                <div className="card mb-0 flex flex-column align-items-center justify-content-center hover zoom" style={{ height: "10rem" }}>
+                                    <div className="text-900 font-medium text-lg">Contactdetails</div>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="col-12 lg:col-6 xl:col-4">
+                            <Link to="/tourpackages">
+                                <div className="card mb-0 flex flex-column align-items-center justify-content-center hover zoom" style={{ height: "10rem" }}>
+                                    <div className="text-900 font-medium text-lg">Tourpackages</div>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="col-12 lg:col-6 xl:col-4">
+                            <Link to="/activityinfo">
+                                <div className="card mb-0 flex flex-column align-items-center justify-content-center hover zoom" style={{ height: "10rem" }}>
+                                    <div className="text-900 font-medium text-lg">Activityinfo</div>
+                                </div>
+                            </Link>
+                        </div>
                         {/* ~cb-add-services-card~ */}
                     </div>
                 </div>
