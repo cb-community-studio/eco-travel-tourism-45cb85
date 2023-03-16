@@ -8,6 +8,9 @@ import { Provider } from "react-redux";
 import * as models from "./models";
 import MyRouter from "./MyRouter/MyRouter";
 import TestDummy from "./components/OnlineDummyAPI/TestDummy";
+import CustomLoginPage from "./components/Custom/CustomLoginPage";
+import LoginPage from "./components/LoginPage/LoginPage";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class App extends Component {
     render() {
@@ -19,6 +22,12 @@ class App extends Component {
                 <MyRouter />
                 {/* </PersistGate> */}
             </Provider>
+            // <Router>
+            //     <Switch>
+            //         <Route exact path="/" component={CustomLoginPage} />
+            //         <Route exact path="/testdummy" component={TestDummy} />
+            //     </Switch>
+            // </Router>
         );
     }
 }

@@ -9,57 +9,6 @@ const Dashboard = (props) => {
 
     return (
         <div className="col-12 flex flex-column align-items-center">
-            <div className="flex w-10">
-                <div className=" w-8">
-                    <h4 className="ml-4">Microservices Ready</h4>
-                    <div className="w-full flex justify-content-center flex-wrap ">
-                        <></>
-                        <div className="col-12 lg:col-6 xl:col-4">
-                            <Link to="/users">
-                                <div className="card mb-0 flex flex-column align-items-center justify-content-center hover zoom" style={{ height: "10rem" }}>
-                                    <div className="text-900 font-medium text-lg">Users</div>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-12 lg:col-6 xl:col-4">
-                            <Link to="/personaldetails">
-                                <div className="card mb-0 flex flex-column align-items-center justify-content-center hover zoom" style={{ height: "10rem" }}>
-                                    <div className="text-900 font-medium text-lg">Personaldetails</div>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-12 lg:col-6 xl:col-4">
-                            <Link to="/contactdetails">
-                                <div className="card mb-0 flex flex-column align-items-center justify-content-center hover zoom" style={{ height: "10rem" }}>
-                                    <div className="text-900 font-medium text-lg">Contactdetails</div>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-12 lg:col-6 xl:col-4">
-                            <Link to="/tourpackages">
-                                <div className="card mb-0 flex flex-column align-items-center justify-content-center hover zoom" style={{ height: "10rem" }}>
-                                    <div className="text-900 font-medium text-lg">Tourpackages</div>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-12 lg:col-6 xl:col-4">
-                            <Link to="/activityinfo">
-                                <div className="card mb-0 flex flex-column align-items-center justify-content-center hover zoom" style={{ height: "10rem" }}>
-                                    <div className="text-900 font-medium text-lg">Activityinfo</div>
-                                </div>
-                            </Link>
-                        </div>
-                        {/* ~cb-add-services-card~ */}
-                    </div>
-                </div>
-                <div className="w-4 flex flex-column align-items-center">
-                    <img src={welcomeImg} alt="welcome image" className="h-30rem" role="lady-image" />
-                    <p className="text-7xl m-0" role="welcome-text">
-                        Welcome!
-                    </p>
-                    <p>You are ready to go!</p>
-                </div>
-            </div>
             <div className="card w-10 my-6">
                 <h4>REST API Ready</h4>
                 <p className="underline m-0">e.g. Authentication</p>

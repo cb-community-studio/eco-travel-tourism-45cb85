@@ -1,0 +1,59 @@
+div {
+    display: block;
+}
+
+.filter-container {
+    display: flex;
+    background-color: green;
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+    position: sticky;
+}
+
+.filter-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.filter-row {
+    box-sizing: border-box;
+    display: inline-flex;
+    width: 100%;
+    height: 38%;
+    margin-top: 45px;
+    gap: 20px;
+}
+
+.p-drop {
+    display: flex;
+    height: 100%;
+    width: 260px !important;
+    flex-shrink: 0;
+}
+
+.p-placeholder,
+.p-dropdown-label {
+    margin-top: 11px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.p-dropdown-panel {
+    left: 0px;
+    right: auto;
+    margin-top: 6px;
+    padding: 16px 0 16px 0;
+    z-index: 1000;
+}
+
+.sort-clear {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: aqua;
+}

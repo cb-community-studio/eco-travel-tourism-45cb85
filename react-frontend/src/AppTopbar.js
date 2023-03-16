@@ -96,7 +96,7 @@ const AppTopbar = (props) => {
                     {props.isLoggedIn ? (
                         <Button className="p-button-rounded p-button-success p-button-outlined ml-3" style={{ zIndex: 20 }} icon="pi pi-user" label={props.user?.email} onClick={toggleUserMenu} aria-controls="user-popup-menu" aria-haspopup />
                     ) : (
-                        <Button label="Log In" className="login-btn border-transparent p-button-outlined font-light pr-4" onClick={() => history.push("/login")} />
+                        <Button label="Log In" className="login-btn border-transparent p-button-outlined font-light pr-4 m-2" onClick={() => history.push("/login")} />
                     )}
 
                     {/* signup btn */}
@@ -111,11 +111,12 @@ const AppTopbar = (props) => {
             {/* menu bar */}
             <div className="menubar-container">
                 <ul className="nav-list">
-                    {/* <Link to="/" style={{ textDecoration: "none" }}> */}
-                    {/* <li>Flight + Hotel</li> */}
-                    {/* </Link> */}
+                    <Link to="/tourpackages" style={{ textDecoration: "none" }}>
+                        {" "}
+                        <li className="nav-item">Tour Packages</li>
+                    </Link>
                     {/* <CustomLink to="/vegetables"> */}
-                    <li className="nav-item">Tour Packages</li>
+                    {/* <li className="nav-item">Tour Packages</li> */}
                     {/* </CustomLink> */}
                     {/* <CustomLink to="/fruits"> */}
                     <li className="nav-item">Attraction Tickets</li>

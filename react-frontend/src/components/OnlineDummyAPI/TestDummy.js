@@ -20,7 +20,8 @@ export default function TestDummy() {
         { field: "location", header: "Location" },
     ];
 
-    useEffect(async () => {
+    useEffect(() => {
+        const token = localStorage.getItem("feathers-jwt");
         // const token =
         //     "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJpYXQiOjE2Nzg3ODk4NDQsImV4cCI6MTY3ODg3NjI0NCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNjQwOTYyODBkNzMyN2ZiMzI0YjEyNmE5IiwianRpIjoiN2IxY2U1MDEtNjI2Ni00MjdlLWJmYjMtZGE3YTU2ZDE2ZDY0In0.FsDzXW1v4XTYTvMuiCB0vh2mbfiogu9Oj8mW_6JHHIQ";
 

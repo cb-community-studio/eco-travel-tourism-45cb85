@@ -36,6 +36,7 @@ import PersonaldetailsPage from "../components/PersonaldetailsPage/Personaldetai
 import ContactdetailsPage from "../components/ContactdetailsPage/ContactdetailsPage";
 import TourpackagesPage from "../components/TourpackagesPage/TourpackagesPage";
 import ActivityinfoPage from "../components/ActivityinfoPage/ActivityinfoPage";
+import TestDummy from "../components/OnlineDummyAPI/TestDummy";
 // ~cb-add-import~
 
 const MyRouter = () => {
@@ -188,6 +189,7 @@ const MyRouter = () => {
                     <Route path="/contactdetails" component={ContactdetailsPage} />
                     <Route path="/tourpackages" component={TourpackagesPage} />
                     <Route path="/activityinfo" component={ActivityinfoPage} />
+                    <Route path="/testdummy" component={TestDummy} />
                     {/* ~cb-add-route~ */}
 
                     <Route path="*" component={NoMatch} />
