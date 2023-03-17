@@ -180,7 +180,7 @@ const TourpackagesPage = (props) => {
 
                         {/* price range */}
                         <div className="dropdown-bar flex justify-content-center">
-                            <Dropdown placeholder="Price Range" className="p-drop">
+                            <Dropdown placeholder="PriceRange" className="p-drop">
                                 <Slider value={value} onChange={(e) => setValue(e.value)} className="w-14rem" range />
                                 <div className="p-dropdown-panel"></div>
                             </Dropdown>
