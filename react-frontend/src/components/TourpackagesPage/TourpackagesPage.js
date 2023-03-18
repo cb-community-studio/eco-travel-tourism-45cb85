@@ -188,7 +188,7 @@ const TourpackagesPage = (props) => {
                     </div>
                     <div className="sort-clear">
                         <div className="sort-text">
-                            <div className="sort-by">SORT BY:</div>
+                            <div className="sort-by">SORT BY :</div>
                             <div className="country-name-btn">Country</div>
                         </div>
                     </div>
